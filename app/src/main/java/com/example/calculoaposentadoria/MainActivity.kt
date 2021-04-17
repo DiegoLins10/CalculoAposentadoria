@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
                 if (sexo == "Masculino") {
                     resultado = 65 - idade
                 } else {
-                    resultado = 60 - idade
+                    resultado = 62 - idade
                 }
 
                 txt_Resultado.text = "Faltam $resultado anos para você se aposentar"
