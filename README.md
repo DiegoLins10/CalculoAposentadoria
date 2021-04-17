@@ -3,6 +3,7 @@
 ### Disciplina – Programação para dispositivos moveis – Prof. Marcos Vasconcelos
 
 - Diego Fernandes Lins
+- Gustavo lino
 
 ### Resumo
 Um aplicativo jusando Android Studio desenvolvido para a aula de Prorgamação para dispositivos moveis que calcula o tempo que falta para o usuario se aposentar.
