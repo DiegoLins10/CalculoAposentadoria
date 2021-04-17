@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background = "@color/purple_200">
 
     <TextView
         android:layout_width="wrap_content"
@@ -40,7 +41,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btn_Calcular"
-        android:text="Calcular"/>
+        android:text="Calcular"
+        app:backgroundTint="@color/teal_200"/>
 
     <TextView
         android:layout_width="wrap_content"
