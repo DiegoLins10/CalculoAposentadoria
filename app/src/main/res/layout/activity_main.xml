@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity"
     android:padding="16dp"
-    android:background = "@color/purple_200">
+    >
 
     <TextView
         android:layout_width="wrap_content"
@@ -25,7 +25,8 @@
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/spn_Sexo" />
+        android:id="@+id/spn_Sexo"
+        />
 
     <TextView
         android:layout_width="wrap_content"
@@ -35,14 +36,15 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/txt_Idade"/>
+        android:id="@+id/txt_Idade"
+        android:inputType="number"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btn_Calcular"
         android:text="Calcular"
-        app:backgroundTint="@color/teal_200"/>
+        />
 
     <TextView
         android:layout_width="wrap_content"
